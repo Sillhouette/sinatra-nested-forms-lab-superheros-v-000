@@ -1,4 +1,4 @@
-class Ship
+class Hero
   attr_accessor :name, :power, :biography
 
   @@all = []
@@ -8,7 +8,7 @@ class Ship
     @power = params[:power]
     @biography = params[:biography]
 
-    @@all << self
+    @@all << selfH
   end
 
   def self.all
