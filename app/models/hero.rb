@@ -4,6 +4,7 @@ class Ship
   @@all = []
 
   def initialize(params)
+    binding.pry
     @name = params[:name]
     @power = params[:power]
     @biography = params[:biography]
